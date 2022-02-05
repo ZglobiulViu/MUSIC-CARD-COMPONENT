@@ -1,0 +1,43 @@
+/*(75em=1200PX)*/
+@media (max-width: 31em) {
+  .mobile-patter {
+    display: inline-block;
+    position: absolute;
+
+    z-index: -1;
+  }
+  .desktop-patter {
+    position: absolute;
+    display: none;
+  }
+  main {
+    padding: 2.4em;
+  }
+  body {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .flex-container {
+    height: 100%;
+  }
+  .card-component {
+    width: 100%;
+  }
+  .card-component__hero-illustration {
+    width: 100%;
+  }
+  .card-component__heading {
+    font-size: 2.4rem;
+  }
+  .card-component__pay-plan__detail,
+  .card-component__pay-plan__price {
+    font-size: 1.4rem;
+  }
+  .main-container {
+    padding: 0 2.4em 3.2em;
+  }
+  .card-component__main-content {
+    padding-left: 0.2em;
+  }
+}

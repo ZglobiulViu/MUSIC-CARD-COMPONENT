@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Order summary card</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="stylesheet" href="CSS/queries.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      class="desktop-patter"
+      src="images/pattern-background-desktop.svg"
+      alt="background patter"
+    />
+    <img
+      class="mobile-patter"
+      src="images/pattern-background-mobile.svg"
+      alt="background patter"
+    />
+    <main>
+      <div class="flex-container">
+        <div class="card-component">
+          <img
+            src="images/illustration-hero.svg"
+            class="card-component__hero-illustration"
+            alt="illustration hero"
+          />
+          <div class="main-container">
+            <header class="card-component__main-content">
+              <h1 class="card-component__heading">Order Summary</h1>
+              <p class="card-component__description">
+                You can now listen to millions of songs, audiobooks, and
+                podcasts on any device anywhere you like!
+              </p>
+            </header>
+            <div class="card-component__pay-plan-container">
+              <img
+                class="card-component__pay-plan-container__music-icon"
+                src="images/icon-music.svg"
+                alt="music icon"
+              />
+              <div class="card-component__pay-plan">
+                <p class="card-component__pay-plan__detail">Annual Plan</p>
+                <p class="card-component__pay-plan__price">$59.99/year</p>
+              </div>
+              <button class="card-component__pay-plan__btn">Change</button>
+            </div>
+
+            <button class="card-component__proceed-btn">
+              Proceed to Payment
+            </button>
+            <button class="card-component__cancel-btn">Cancel Order</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="frontendmentor-footer">
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Sergiu</a>.
+      </div>
+    </footer>
+  </body>
+</html>
